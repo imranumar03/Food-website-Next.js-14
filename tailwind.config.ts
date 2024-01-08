@@ -8,11 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        pinkish:'rgb(255, 4, 57, 100)',
+        masturd: '#feb902',
+        accent: '#FF8F9C',
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+       },
     },
   },
   plugins: [],
